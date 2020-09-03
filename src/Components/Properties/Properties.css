@@ -1,0 +1,38 @@
+#properties-section{
+    width: 90%;
+    margin: 6em auto 0 auto;
+    padding: 0;
+}
+
+#properties-section-header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 4em;
+    border-bottom: .1em solid black;
+    padding: 0;
+}
+
+#properties-section-header-container h2{
+    position: absolute;
+    top: 0;
+    left: .5em;
+}
+
+#properties-section-container-button{
+    position: absolute;
+    right: 1em;
+    height: 3em;
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+}
+ 
+@media screen and (max-width: 900px){
+    #properties-section{
+        width: 100%;
+        margin-top: 5em;
+    }
+}
